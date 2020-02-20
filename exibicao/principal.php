@@ -28,11 +28,13 @@
                 </tr>
             </thead>
             <tbody>
-              <tr>
-                <th scope="row">Nome do curso - valor </th>
-                <td> Carga horaria - valor </td>
-                <td>Versão da ferramenta - valor </td>
-              </tr>
+              <?php foreach(cursos() as $curso) : ?>
+                <tr>
+                  <th scope="row"><?= $curso["nome_curso"]?></th>
+                  <td><?= $curso["carga_horaria"]?></td>
+                  <td><?= $curso["versao_ferramenta"]?></td>
+                </tr>
+              <?php endforeach; ?>
             </tbody>
         </table>
     </div>
