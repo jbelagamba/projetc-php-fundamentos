@@ -1,2 +1,2 @@
 # projetc_php
-Projeto realizado no curso de findamentos PHP | Treinaweb
+Projeto realizado no curso de fundamentos PHP | Treinaweb
